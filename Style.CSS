@@ -1,0 +1,23 @@
+*{
+    margin:4px;
+    padding:0;
+    box_sizing: border_box;
+}
+html,body{
+    height: 100%;
+    widtht: 100%;
+    background-color: rgb(106, 137, 224);
+}
+.lol h2{
+    color:rgb(246, 5, 5);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn button{
+    background-color: rgb(236, 25, 36);
+    border: none;
+    border-color: black;
+    border-radius: 15px;
+    padding: 7px;
+}
