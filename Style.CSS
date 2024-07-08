@@ -1,23 +1,63 @@
 *{
-    margin:4px;
-    padding:0;
-    box_sizing: border_box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 html,body{
     height: 100%;
-    widtht: 100%;
-    background-color: rgb(106, 137, 224);
+    width: 100%;
+    background-color: rgb(68, 116, 211)
 }
-.lol h2{
-    color:rgb(246, 5, 5);
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+.container h1{
+   color: rgb(1, 0, 5);
+   margin: 4px;
+   margin-left: 5px;
+   font-size: 35px;
 }
-.btn button{
-    background-color: rgb(236, 25, 36);
-    border: none;
-    border-color: black;
+.container p{
+    color: rgb(2, 1, 10);
+    font-size: 25px;
+}
+.nav {
+    background-color: rgb(84, 42, 200);
+    width: 30%;
     border-radius: 15px;
-    padding: 7px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    align-items: center;
+    padding: 50px; /* Padding for inner spacing */
+    margin: 20px auto; /* Centering the navbar horizontally with margin */
+}
+
+.nav a {
+    color: rgb(3, 1, 7);
+    text-decoration: none;
+    padding: 10px 15px; /* Padding inside each link */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: rgb(18, 18, 232);
+    border-radius: 15px;
+}
+
+button {
+    background-color: rgb(52, 32, 181);
+    color: rgb(9, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(41, 92, 167);
 }
