@@ -12,25 +12,25 @@ html,body{
 }
 .container h1{
    color: rgb(1, 0, 5);
-   margin: 4px;
-   margin-left: 5px;
-   font-size: 35px;
+   margin: 6px;
+   margin-left: px;
+   font-size: 30px;
 }
 .container p{
     color: rgb(2, 1, 10);
-    font-size: 25px;
+    font-size: 20px;
 }
 .nav {
-    background-color: rgb(84, 42, 200);
+    background-color: rgb(46, 41, 187);
     width: 30%;
     border-radius: 15px;
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     font-size: medium;
     align-items: center;
-    padding: 50px; /* Padding for inner spacing */
-    margin: 20px auto; /* Centering the navbar horizontally with margin */
+    padding: 30px; /* Padding for inner spacing */
+    margin: 10px auto; /* Centering the navbar horizontally with margin */
 }
 
 .nav a {
@@ -42,14 +42,14 @@ html,body{
 }
 
 .nav a:hover {
-    background-color: white;
+    background-color: rgb(68, 27, 216);
     color: rgb(18, 18, 232);
     border-radius: 15px;
 }
 
 button {
-    background-color: rgb(52, 32, 181);
-    color: rgb(9, 0, 0);
+    background-color: rgb(205, 203, 215);
+    color: rgb(8, 2, 2);
     border: none;
     padding: 10px 15px;
     border-radius: 15px;
@@ -59,5 +59,12 @@ button {
 }
 
 button:hover {
-    background-color: rgb(41, 92, 167);
+    background-color: rgb(5, 4, 4);
+}
+.container img{
+    float:right;
+    height: 30%;
+    width: 30%;
+    border-radius: 15px;
+    margin-right: 6px;
 }
