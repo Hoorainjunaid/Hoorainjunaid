@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
@@ -18,18 +19,20 @@ html,body{
 }
 .container p{
     color: rgb(2, 1, 10);
+    font-style: italic;
     font-size: 20px;
 }
 .nav {
     background-color: rgb(46, 41, 187);
-    width: 30%;
+    width: 40%;
     border-radius: 15px;
-    height: 50px;
+    height: 30px;
     display: flex;
     justify-content: space-between;
+    font-style: italic;
     font-size: medium;
     align-items: center;
-    padding: 30px; /* Padding for inner spacing */
+    padding: 20px; /* Padding for inner spacing */
     margin: 10px auto; /* Centering the navbar horizontally with margin */
 }
 
@@ -48,7 +51,7 @@ html,body{
 }
 
 button {
-    background-color: rgb(205, 203, 215);
+    background-color: rgb(217, 217, 235);
     color: rgb(8, 2, 2);
     border: none;
     padding: 10px 15px;
@@ -57,14 +60,89 @@ button {
     text-decoration: none;
     text-align: center;
 }
+button{
+    font: aqua;
+    font-style: italic;
 
-button:hover {
-    background-color: rgb(5, 4, 4);
 }
+
 .container img{
+    float:right;
+    height: 40%;
+    width: 40%;
+    border-radius: 15px;
+    margin-right: 6px;
+}
+
+.about h2{
+color: rgb(22, 36, 195);
+font-size: 50px;
+}
+.about{
+    margin-top: 100px;
+}
+.about img{
     float:right;
     height: 30%;
     width: 30%;
     border-radius: 15px;
     margin-right: 6px;
+}
+.about h1{
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.about p{
+    font-size: 20px;
+}
+.box{
+    color: white;
+    font-style: italic;
+    font-size: x-small;
+    border-radius: 15px !important;
+    background-color: rgb(36, 53, 184);
+    width: 15%;
+    height: 10%;
+    padding: 15px;
+    box-shadow: peru;
+}
+.parent{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+button{
+    font-size: xx-small;
+    font-style: italic;
+    color: black;
+    border-radius: 15px;
+}
+.contact h2{
+    color: rgb(39, 39, 180) !important;
+    font: bold !important;
+    font-size: 50px;
+    font-style: italic;
+}
+.input input{
+    border-radius: 15px;
+    height: 25px;
+    width:50%;
+    color: black;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+}
+.input textarea{
+    border-radius: 15px;
+    width: 50%;
+    color: black;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+button{
+    font-style: italic;
+    color: black;
+    background-color: rgb(56, 56, 223);
 }
